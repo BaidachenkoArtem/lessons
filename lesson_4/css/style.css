@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('../fonts/ProximaNovaCond-Bold.woff2') format('woff2'),
+		 url('../fonts/ProximaNovaCond-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Lt';
+	src: url('../fonts/ProximaNovaCond-Light.woff2') format('woff2'),
+		 url('../fonts/ProximaNovaCond-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('../fonts/ProximaNovaCond-Regular.woff2') format('woff2'),
+		 url('../fonts/ProximaNovaCond-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "Roboto";
+	font-size: 18px;
+	color: #333;
+	line-height: 1.5;
+}
+h1 {
+	font-family: "Proxima Nova Cn Rg";
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.title {
+	font-family: "Proxima Nova Cn Rg";
+	font-weight: 700;
+	font-size: 24px;
+	color: seagreen;
+	letter-spacing: 2.5px;
+}
+h6.title {
+	text-align: right;
+	line-height: 1.4;
+}
+.text7 p {
+	text-align: right;
+	text-decoration: underline;
+}
+.list2 {
+	text-indent: 50px;
+	line-height: 1.5;
+	color: #242424;
+}
+.list2>li>ul>li>ul>li{
+	color: #009414;
+	text-transform: capitalize;
+}
+.list2>li>ul>li {
+	text-transform: uppercase;
+}
+.text p {
+	text-align: justify;
+}
+.text span {
+	font-weight: 700;
+}
+a {
+	text-decoration: underline;
+	color: #4040f7;
+}
+.text2 p {
+	text-align: justify;
+	word-spacing: 10px;
+}
+.italic {
+	font-style: italic;
+}
+.text3 {
+	text-decoration: line-through;
+	font-weight: 700;
+}
+h3.title {
+	text-align: center;
+}
+span.oblique {
+	font-style: oblique;
+}
+.text4 p {
+	text-indent: 50px;
+	text-transform: lowercase;
+	letter-spacing: 2.5px;
+}
+.description {
+	word-spacing: 10px;
+	font-weight: 300;
+	font-style: italic;
+}
+h5.title {
+	text-align: center;
+	line-height: 1.4;
+	text-decoration: overline;
+}
+.text5 {
+	font-weight: 300;
+}
+.text6 {
+	text-align: center;
+	text-shadow: 2px 2px 50px #000, -2px -2px 20px #0da70d;
+}
+.text7 p {
+	color: #b4a306;
+	text-align: right;
+	text-decoration: underline;
+	word-spacing: 10px;
+}

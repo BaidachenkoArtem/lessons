@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	color: #637381;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.main {
+	background: url("../img/bg_main.jpg") 0 50% / cover no-repeat;
+}
+.content {
+	padding-top: 330px;
+	padding-bottom: 100px;
+}
+.data {
+	margin-bottom: 15px;
+}
+.title {
+	color: #f8f9fa;
+	font-size: 25px;
+	line-height: 1.6;
+	font-weight: 700;
+	margin-bottom: 15px;
+	max-width: 605px;
+}
+.text {
+	color: #e5e5e5;
+	font-size: 12px;
+	line-height: 1.67;
+}
+.list {
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+.list__container {
+	max-width: 1139px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.title-list {
+	font-family: "Inter", sans-serif;
+	color: #212b36;
+	font-size: 26px;
+	line-height: 1.08;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.list-row {
+	font-size: 0;
+	margin-bottom: 60px;
+}
+.list-row2 {
+	margin-bottom: 0;
+}
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5,
+.list-6 {
+	display: inline-block;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+.list-2,
+.list-3,
+.list-4,
+.list-5,
+.list-6 {
+	vertical-align: top;
+}
+.list-2,
+.list-4,
+.list-5 {
+	margin: 0px 91px 0px 0px;
+}
+.list-1 li,
+.list-2 li,
+.list-3 li,
+.list-4 li,
+.list-5 li,
+.list-6 li {
+	margin-bottom: 18px;
+}
+.list-2 li,
+.list-3 li,
+.list-4 li,
+.list-5 li {
+	min-height: 20px;
+}
+.list-2 li,
+.list-3 li,
+.list-4 li,
+.list-5 li,
+.list-6 li {
+	padding: 0px 0px 0px 30px;
+}
+.list-1 li {
+	background: url("../img/icons/circle.svg") 0 50% / auto no-repeat;
+	padding: 0px 0px 0px 18px;
+	min-height: 15px;
+	line-height: 0.94;
+}
+.list-1 {
+	margin: 0px 136px 0px 0px;
+}
+.list li.list1 {
+	margin-bottom: 0;
+}
+.list-2 li {
+	background: url("../img/icons/check.svg") 0 0 / auto no-repeat;
+}
+.list-3 li {
+	background: url("../img/icons/check_green.svg") 0 50% / auto no-repeat;
+}
+.list-4 li {
+	background: url("../img/icons/error.svg") 0 50% / auto no-repeat;
+}
+.list-5 li {
+	background: url("../img/icons/arrow-right.svg") 0 50% / auto no-repeat;
+}
+.list-6 li {
+	background: url("../img/icons/star.svg") 0 50% / auto no-repeat;
+	min-height: 18px;
+}
+.speakers {
+	padding: 82px 0px;
+	background: linear-gradient(118deg, rgba(244,247,255,0) 60%, rgba(48,86,211,0.08) 60%, rgba(244,247,255,0) 100%),
+					linear-gradient(118deg, rgba(244,247,255,0) 64%, rgba(48,86,211,0.08) 64%, rgba(244,247,255,0) 100%) #f4f7ff;
+}
+.speakers__container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.speakers-content {
+	padding: 64px 0;
+	display: inline-block;
+	font-family: 'Inter';
+	margin: 0px 179px 0px 0px;
+}
+.speakers-price {
+	color: #3056d3;
+	font-size: 18px;
+	line-height: 1.33;
+	font-weight: 600;
+	margin-bottom: 13px;
+}
+.speakers-title {
+	color: #212b36;
+	font-size: 36px;
+	line-height: 1.25;
+	font-weight: 700;
+	max-width: 470px;
+	margin-bottom: 15px;
+}
+.speakers-text {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	margin-bottom: 35px;
+	max-width: 570px;
+}
+.button {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #3056d3;
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+.speakers-image {
+	display: inline-block;
+	vertical-align: top;
+}
+.speakers-image img {
+	max-width: 100%;
+}
+.block {
+	background: linear-gradient(118deg, rgba(244,247,255,0) 80%, rgba(48,86,211,0.08) 80%, rgba(244,247,255,0) 100%),
+					linear-gradient(118deg, rgba(244,247,255,0) 84%, rgba(48,86,211,0.08) 84%, rgba(244,247,255,0) 100%),
+					linear-gradient(64deg, rgba(81, 255, 188, 0) 30%, rgba(2, 247, 75, 0.08) 30%, rgba(81, 255, 188, 0) 100%),
+					linear-gradient(64deg, rgba(81, 255, 188, 0) 34%, rgba(2, 247, 75, 0.08) 34%, rgba(81, 255, 188, 0) 100%) #f4f7ff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.title-block {
+	color: #212b36;
+	font-size: 30px;
+	line-height: 1.25;
+	font-weight: 700;
+}
+.block2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: radial-gradient(circle, rgba(0, 126, 17, 0.8) 20%, rgba(48,86,211,0.8) 50%, rgba(0, 57, 212, 0.08) 100%),
+					radial-gradient(circle, rgba(9,255,0,1) 62%, rgba(244,247,255,0) 62%, rgba(244,247,255,0) 100%) #f4f7ff;
+}

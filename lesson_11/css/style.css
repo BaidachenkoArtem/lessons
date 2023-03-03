@@ -262,10 +262,9 @@ body {
 }
 .sub-sub-menu__list {
 	display: inline-block;
-	padding: 20px;
 }
 .sub-sub-menu__list:not(:last-child) {
-	margin-right: 30px;
+	margin-right: 75px;
 }
 .sub-sub-menu__item {
 	font-size: 0;

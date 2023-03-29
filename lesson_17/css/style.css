@@ -1201,6 +1201,7 @@ body {
 	}
 	.form-shopping__radio::after {
 		padding-bottom: 10px;
+		width: 100%;
 	}
 }
 .footer__container {

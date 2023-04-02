@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson_19</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<h1 id="h-1" class="header__title title">Модуль GRID</h1>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__main main">
+				<div class="main__container">
+					<div class="main__content">
+						<div class="main__grid">
+							<h2 class="main__title">display(grid)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">display(inline-grid)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row2">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+								  <div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (1fr)</h2>
+							<div class="main__block block-main block-main--3">
+								<div class="block-main__row3">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (%)</h2>
+							<div class="main__block block-main block-main--4">
+								<div class="block-main__row4">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (minmax)</h2>
+							<div class="main__block block-main block-main--5">
+								<div class="block-main__row5">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (auto)</h2>
+							<div class="main__block block-main block-main--5">
+								<div class="block-main__row6">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (repeat)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row7">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  </div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (repeat+auto-fill+minmax)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row8">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштування колонок (grid-template-columns) - (repeat+auto-fit+minmax)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row9">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Налаштовує рядки (grid-template-rows) - (repeat)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row10">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Скорочений запис явної сітки (рядки / колонки)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row11">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Алгоритм автоматичного розміщення елементів</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row12">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">Розміри не явних колонки / рядка</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row13">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-items (stretch)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row14">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-items (start)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row15">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-items (end)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row16">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-items (center)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row17">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">align-items(stretch)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row18">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">align-items(start)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row19">
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">align-items(end)</h2>
+							<div class="main__block block-main block-main--1">
+								<div class="block-main__row20">
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--2">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">align-items(center)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row21">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (start)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row22">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (end)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row23">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (center)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row24">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (stretch)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row25">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (space-around)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row26">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--10">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--10">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--10">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (space-between)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row27">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">justify-content (space-evenly)</h2>
+							<div class="main__block block-main">
+								<div class="block-main__row28">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="main__grid">
+							<h2 class="main__title">align-content (start)</h2>
+							<div class="main__block block-main block-main--29">
+								<div class="block-main__row29">
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">1</div>
+								 	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">2</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">3</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">4</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">5</div>
+								  	</div>
+									<div class="block-main__element block-main__element--1">
+										<div class="block-main__content">6</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__cards cards">
+				<div class="cards__container">
+					<div class="cards__body">
+						<div class="cards__item item-card">
+							<a href="#" class="item-card__image">
+								<img src="img/cards/armchair.webp" alt="armchair">
+							</a>
+							<div class="item-card__content content-card content-card--1">
+								<div class="content-card__label">#House</div>
+								<h2 class="content-card__title">
+									<a href="#" class="content-card__link-title">Express Your Beautiful Life Through Furniture</a>
+								</h2>
+							</div>
+						</div>
+						<div class="cards__item item-card item-card--color">
+							<a href="#" class="item-card__image">
+								<div class="item-card__item">
+									<img src="img/cards/watch.png" alt="watch">
+								</div>
+							</a>
+							<div class="item-card__content content-card content-card--2">
+								<div class="content-card__label">#Accessories</div>
+								<h2 class="content-card__title">
+									<a href="#" class="content-card__link-title">Discover Our Accessories Collection</a>
+								</h2>
+							</div>
+						</div>
+						<div class="cards__item item-card">
+							<a href="#" class="item-card__image">
+								<img src="img/cards/laptop.webp" alt="laptop">
+							</a>
+							<div class="item-card__content content-card content-card--2">
+								<div class="content-card__label">#Office</div>
+								<h2 class="content-card__title">
+									<a href="#" class="content-card__link-title">Make Your Workspace More Comfortable</a>
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__products products">
+				<div class="products__container">
+					<div class="products__body">
+						<div class="products__header header-products">
+							<h2 class="header-products__title title">Our Latest Products</h2>
+							<div class="header-products__text text">
+								There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
+							</div>
+						</div>
+						<div class="products__card card-products">
+							<div class="card-products__items">
+								<a href="#" class="card-products__image">
+									<img src="img/latest_products/apple_watch.webp" alt="apple_watch">
+								</a>
+								<div class="card-products__content content-products">
+									<div class="content-products__items">
+										<h4 class="content-products__title">
+											<a class="content-products__link-title" href="#">Apple Watch Series 7</a>
+										</h4>
+										<div class="content-products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem.</div>
+									</div>
+								</div>
+								<div class="card-products__footer footer-products">
+									<div class="footer-products__items">
+										<div class="footer-products__item">
+											<div class="footer-products__rating"></div>
+											<a href="#" class="footer-products__reviews">(55) Reviews</a>
+										</div>
+										<div class="footer-products__price">$299</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-products__items">
+								<a href="#" class="card-products__image">
+									<img src="img/latest_products/iphone_13.webp" alt="iphone_13">
+								</a>
+								<div class="card-products__content content-products">
+									<div class="content-products__items">
+										<h4 class="content-products__title">
+											<a class="content-products__link-title" href="#">iPhone 13 Pro Max</a>
+										</h4>
+										<div class="content-products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem.</div>
+									</div>
+								</div>
+								<div class="card-products__footer footer-products">
+									<div class="footer-products__items">
+										<div class="footer-products__item">
+											<div class="footer-products__rating"></div>
+											<a href="#" class="footer-products__reviews">(32) Reviews</a>
+										</div>
+										<div class="footer-products__price">$999</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-products__items">
+								<a href="#" class="card-products__image">
+									<img src="img/latest_products/macbook_pro.webp" alt="macbook_pro">
+								</a>
+								<div class="card-products__content content-products">
+									<div class="content-products__items">
+										<h4 class="content-products__title">
+											<a class="content-products__link-title" href="#">Macbook Pro M1 8/256GB</a>
+										</h4>
+										<div class="content-products__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem.</div>
+									</div>
+								</div>
+								<div class="card-products__footer footer-products">
+									<div class="footer-products__items">
+										<div class="footer-products__item">
+											<div class="footer-products__rating"></div>
+											<a href="#" class="footer-products__reviews">(15) Reviews</a>
+										</div>
+										<div class="footer-products__price">$1299</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__arrows arrows">
+							<div class="arrows__items">
+								<button class="arrows__item arrows__item--1"></button>
+								<button class="arrows__item arrows__item--2"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__trending trending">
+				<div class="trending__container">
+					<div class="trending__body">
+						<div class="trending__header">
+							<h2 class="trending__title title">Trending Products</h2>
+							<div class="trending__text text">
+								There are many variations of passages of Lorem Ipsum available	but the majority have suffered alteration in some form.
+							</div>
+						</div>
+						<div class="trending__column">
+							<div class="trending__items items-trending">
+								<div class="items-trending__body">
+									<a href="#" class="items-trending__image">
+										<img src="img/trending_products/top_showpiece.webp" alt="top_showpiece">
+									</a>
+									<div class="items-trending__content">
+										<div class="items-trending__price">$59.55</div>
+										<h4 class="items-trending__title">
+											<a class="items-trending__link-title" href="#">Table Top Showpiece</a>
+										</h4>
+									</div>
+									<div class="items-trending__footer footer-trending">
+										<div class="footer-trending__rating">
+											<img src="img/icons/rating_1.svg" alt="rating_1">
+										</div>
+										<a href="#" class="footer-trending__reviews">115 Reviews</a>
+									</div>
+								</div>
+							</div>
+							<div class="trending__items items-trending">
+								<div class="items-trending__body">
+									<a href="#" class="items-trending__image">
+										<img src="img/trending_products/ceramik_coffee.webp" alt="ceramik_coffee">
+									</a>
+									<div class="items-trending__content">
+										<div class="items-trending__price">$40.00</div>
+										<h4 class="items-trending__title">
+											<a class="items-trending__link-title" href="#">Ceramic Coffee Mug</a>
+										</h4>
+									</div>
+									<div class="items-trending__footer footer-trending">
+										<div class="footer-trending__rating">
+											<img src="img/icons/rating_1.svg" alt="rating_1">
+										</div>
+										<a href="#" class="footer-trending__reviews">58 Reviews</a>
+									</div>
+								</div>
+							</div>
+							<div class="trending__items items-trending">
+								<div class="items-trending__body">
+									<a href="#" class="items-trending__image">
+										<img src="img/trending_products/modern_coffee.webp" alt="modern_coffee">
+									</a>
+									<div class="items-trending__content">
+										<div class="items-trending__price">$80.00</div>
+										<h4 class="items-trending__title">
+											<a class="items-trending__link-title" href="#">Modern Coffee Mug</a>
+										</h4>
+									</div>
+									<div class="items-trending__footer footer-trending">
+										<div class="footer-trending__rating">
+											<img src="img/icons/rating_1.svg" alt="rating_1">
+										</div>
+										<a href="#" class="footer-trending__reviews">8 Reviews</a>
+									</div>
+								</div>
+							</div>
+							<div class="trending__items items-trending">
+								<div class="items-trending__body">
+									<a href="#" class="items-trending__image">
+										<img src="img/trending_products/lamp.webp" alt="lamp">
+									</a>
+									<div class="items-trending__content">
+										<div class="items-trending__price">$49.00</div>
+										<h4 class="items-trending__title">
+											<a class="items-trending__link-title" href="#">Metal Table Lamp</a>
+										</h4>
+									</div>
+									<div class="items-trending__footer footer-trending">
+										<div class="footer-trending__rating">
+											<img src="img/icons/rating_1.svg" alt="rating_1">
+										</div>
+										<a href="#" class="footer-trending__reviews">72 Reviews</a>
+									</div>
+								</div>
+							</div>
+							<div class="trending__items items-trending">
+								<div class="items-trending__body">
+									<a href="#" class="items-trending__image">
+										<img src="img/trending_products/rubik_cube.webp" alt="rubik_cube">
+									</a>
+									<div class="items-trending__content">
+										<div class="items-trending__price">$25.20</div>
+										<h4 class="items-trending__title">
+											<a class="items-trending__link-title" href="#">Rubik's Cube</a>
+										</h4>
+									</div>
+									<div class="items-trending__footer footer-trending">
+										<div class="footer-trending__rating">
+											<img src="img/icons/rating_1.svg" alt="rating_1">
+										</div>
+										<a href="#" class="footer-trending__reviews">5 Reviews</a>
+									</div>
+								</div>
+							</div>
+							<div class="trending__items items-trending">
+								<div class="items-trending__body">
+									<a href="#" class="items-trending__image">
+										<img src="img/trending_products/table_showpiece.webp" alt="table_showpiece">
+									</a>
+									<div class="items-trending__content">
+										<div class="items-trending__price">$78.00</div>
+										<h4 class="items-trending__title">
+											<a class="items-trending__link-title" href="#">Table Showpiece</a>
+										</h4>
+									</div>
+									<div class="items-trending__footer footer-trending">
+										<div class="footer-trending__rating">
+											<img src="img/icons/rating_1.svg" alt="rating_1">
+										</div>
+										<a href="#" class="footer-trending__reviews">85 Reviews</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__collections collections">
+				<div class="collections__container">
+					<div class="collections__body body-collection">
+						<div class="body-collection__header">
+							<div class="body-collection__label label">Recent Products</div>
+							<h2 class="body-collection__title title">Latest Collections</h2>
+							<div class="body-collection__text text">
+								There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
+							</div>
+						</div>
+						<div class="body-collection__column">
+							<div class="body-collection__items item-collection">
+								<a class="item-collection__image" href="#">
+									<img src="img/collections/jacket.webp" alt="jacket">
+								</a>
+								<div class="item-collection__content content-collection">
+									<div class="content-collection__item">
+										<h4 class="content-collection__title">
+											<a class="content-collection__link-title" href="#">Men Winter Jacket</a>
+										</h4>
+										<div class="content-collection__text">Item Descriptions</div>
+									</div>
+									<div class="item-collection__price">$35.00</div>
+								</div>
+							</div>
+							<div class="body-collection__items item-collection">
+								<a class="item-collection__image" href="#">
+									<img src="img/collections/women_collection.webp" alt="women_collection">
+								</a>
+								<div class="item-collection__content content-collection">
+									<div class="content-collection__item">
+										<h4 class="content-collection__title">
+											<a class="content-collection__link-title" href="#">Women Collection</a>
+										</h4>
+										<div class="content-collection__text">Item Descriptions</div>
+									</div>
+									<div class="item-collection__price">$35.00</div>
+								</div>
+							</div>
+							<div class="body-collection__items item-collection">
+								<a class="item-collection__image" href="#">
+									<img src="img/collections/women_sunglass.webp" alt="women_sunglass">
+								</a>
+								<div class="item-collection__content content-collection">
+									<div class="content-collection__item">
+										<h4 class="content-collection__title">
+											<a class="content-collection__link-title" href="#">Women Sunglass</a>
+										</h4>
+										<div class="content-collection__text">Item Descriptions</div>
+									</div>
+									<div class="item-collection__price">$35.00</div>
+								</div>
+							</div>
+							<div class="body-collection__items item-collection">
+								<a class="item-collection__image" href="#">
+									<img src="img/collections/man_black.webp" alt="man_black">
+								</a>
+								<div class="item-collection__content content-collection">
+									<div class="content-collection__item">
+										<h4 class="content-collection__title">
+											<a class="content-collection__link-title" href="#">Man in Black</a>
+										</h4>
+										<div class="content-collection__text">Item Descriptions</div>
+									</div>
+									<div class="item-collection__price">$35.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__featured featured">
+				<div class="featured__container">
+					<div class="featured__body">
+						<div class="featured__header header-featured">
+							<div class="header-featured__label label">Trending Iteams</div>
+							<h2 class="header-featured__title title">Featured Products</h2>
+							<div class="header-featured__text text">
+								There are many variations of passages of Lorem Ipsum available	but the majority have suffered alteration in some form.
+							</div>
+						</div>
+						<div class="featured__column">
+							<div class="featured__items item-featured">
+								<a class="item-featured__image" href="#">
+									<img src="img/featured_products/winter_sweater.webp" alt="winter_sweater">
+								</a>
+								<div class="item-featured__icons icon-featured">
+									<a href="#" class="icon-featured__cart"></a>
+									<a href="#" class="icon-featured__view"></a>
+									<a href="#" class="icon-featured__like"></a>
+								</div>
+								<div class="item-featured__content content-featured">
+									<div class="content-featured__item">
+										<div class="content-featured__text">Winter Clothings</div>
+										<h4 class="content-featured__title">
+											<a class="content-featured__link-title" href="#">Women winter sweater</a>
+										</h4>
+										<div class="content-featured__price price-featured">
+											<div class="price-featured__text price-featured__text--line">£48.00</div>
+											<div class="price-featured__text">£24.00</div>
+										</div>
+									</div>
+									<div class="content-featured__discount">-50% Flat Discount</div>
+								</div>
+							</div>
+							<div class="featured__items item-featured">
+								<a class="item-featured__image" href="#">
+									<img src="img/featured_products/jacket.webp" alt="jacket">
+								</a>
+								<div class="item-featured__icons icon-featured">
+									<a href="#" class="icon-featured__cart"></a>
+									<a href="#" class="icon-featured__view"></a>
+									<a href="#" class="icon-featured__like"></a>
+								</div>
+								<div class="item-featured__content content-featured">
+									<div class="content-featured__item">
+										<div class="content-featured__text">Ladies Jacket</div>
+										<h4 class="content-featured__title">
+											<a class="content-featured__link-title" href="#">Ladies denim jacket</a>
+										</h4>
+										<div class="content-featured__price price-featured">
+											<div class="price-featured__text">£49.00</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="featured__items item-featured">
+								<a class="item-featured__image" href="#">
+									<img src="img/featured_products/black_sunglass.webp" alt="black_sunglass">
+								</a>
+								<div class="item-featured__icons icon-featured">
+									<a href="#" class="icon-featured__cart"></a>
+									<a href="#" class="icon-featured__view"></a>
+									<a href="#" class="icon-featured__like"></a>
+								</div>
+								<div class="item-featured__content content-featured">
+									<div class="content-featured__item">
+										<div class="content-featured__text">Sunglasses</div>
+										<h4 class="content-featured__title">
+											<a class="content-featured__link-title" href="#">Stylish black sunglass</a>
+										</h4>
+										<div class="content-featured__price price-featured">
+											<div class="price-featured__text">£59.00</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="featured__items item-featured">
+								<a class="item-featured__image" href="#">
+									<img src="img/featured_products/fit_sando.webp" alt="fit_sando">
+								</a>
+								<div class="item-featured__icons icon-featured">
+									<a href="#" class="icon-featured__cart"></a>
+									<a href="#" class="icon-featured__view"></a>
+									<a href="#" class="icon-featured__like"></a>
+								</div>
+								<div class="item-featured__content content-featured">
+									<div class="content-featured__item">
+										<div class="content-featured__text">T-shirt</div>
+										<h4 class="content-featured__title">
+											<a class="content-featured__link-title" href="#">Men's regular fit sando t-shirt</a>
+										</h4>
+										<div class="content-featured__price price-featured">
+											<div class="price-featured__text price-featured__text--line">£120.00</div>
+											<div class="price-featured__text">£60.00</div>
+										</div>
+									</div>
+									<div class="content-featured__discount">-50% Flat Discount</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__category category">
+				<div class="category__container">
+					<div class="category__body body-category">
+						<div class="body-category__header">
+							<h2 class="body-category__title title title--left">Shop By Category</h2>
+							<div class="body-category__item">
+								<div class="body-category__text text text--left">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet molestie nunc. Vestibulum tempus justo.
+								</div>
+								<div class="body-category__actions actions">
+									<a class="actions__button button" href="#">Explore All</a>
+								</div>
+							</div>
+						</div>
+						<div class="body-category__column">
+							<div class="body-category__items item-category">
+								<div class="item-category__body">
+									<a href="#" class="item-category__image">
+										<img src="img/category/beautiful_furniture.webp" alt="beautiful_furniture">
+									</a>
+									<div class="item-category__content content-category">
+										<div class="content-category__label">#House</div>
+										<h3 class="content-category__title">
+											<a class="content-category__link-title" href="#">Beautiful Furniture</a>
+										</h3>
+									</div>
+								</div>
+							</div>
+							<div class="body-category__items item-category">
+								<div class="item-category__body">
+									<a href="#" class="item-category__image">
+										<img src="img/category/accessories_collection.webp" alt="accessories_collection">
+									</a>
+									<div class="item-category__content content-category">
+										<div class="content-category__label">#Accessories</div>
+										<h3 class="content-category__title">
+											<a class="content-category__link-title" href="#">Accessories Collection</a>
+										</h3>
+									</div>
+								</div>
+							</div>
+							<div class="body-category__items item-category">
+								<div class="item-category__body">
+									<a href="#" class="item-category__image">
+										<img src="img/category/kitchen_collection.webp" alt="kitchen_collection">
+									</a>
+									<div class="item-category__content content-category">
+										<div class="content-category__label">#Kitchen</div>
+										<h3 class="content-category__title">
+											<a class="content-category__link-title" href="#">Kitchen Set Collection</a>
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__top-collections top-collections">
+				<div class="top-collections__container">
+					<div class="top-collections__body">
+						<div class="top-collections__header header-collection-top">
+							<div class="header-collection-top__label label">Our Best Selling Items</div>
+							<h2 class="header-collection-top__title title">Top Collections</h2>
+							<div class="header-collection-top__text text">
+								There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
+							</div>
+						</div>
+						<div class="top-collections__column">
+							<div class="top-collections__items items-collection-top">
+								<a class="items-collection-top__image" href="#">
+									<img src="img/top_collections/t-shirt_men.webp" alt="t-shirt_men">
+								</a>
+								<div class="items-collection-top__content content-top-collection">
+									<h3 class="content-top-collection__title">
+										<a class="content-top-collection__link-title" href="#">T-shirt for Men’s</a>
+									</h3>
+									<div class="content-top-collection__price price-collection-top">
+										<div class="price-collection-top__text price-collection-top__text--line">$50.00</div>
+										<div class="price-collection-top__text">$24.00</div>
+									</div>
+								</div>
+								<div class="items-collection-top__actions actions-collection-top">
+									<a href="#" class="actions-collection-top__button button button--dark">Shop Now</a>
+								</div>
+							</div>
+							<div class="top-collections__items items-collection-top">
+								<a class="items-collection-top__image" href="#">
+									<img src="img/top_collections/t-shirt_women.webp" alt="t-shirt_women">
+								</a>
+								<div class="items-collection-top__content content-top-collection">
+									<h3 class="content-top-collection__title">
+										<a class="content-top-collection__link-title" href="#">T-shirt for Women’s</a>
+									</h3>
+									<div class="content-top-collection__price price-collection-top">
+										<div class="price-collection-top__text">$39.00</div>
+									</div>
+								</div>
+								<div class="items-collection-top__actions actions-collection-top">
+									<a href="#" class="actions-collection-top__button button button--dark">Shop Now</a>
+								</div>
+							</div>
+							<div class="top-collections__items items-collection-top">
+								<a class="items-collection-top__image" href="#">
+									<img src="img/top_collections/sneakers.webp" alt="sneakers">
+								</a>
+								<div class="items-collection-top__content content-top-collection">
+									<h3 class="content-top-collection__title">
+										<a class="content-top-collection__link-title" href="#">Men's Sneakers</a>
+									</h3>
+									<div class="content-top-collection__price price-collection-top">
+										<div class="price-collection-top__text price-collection-top__text--line">$89.00</div>
+										<div class="price-collection-top__text">$78.00</div>
+									</div>
+								</div>
+								<div class="items-collection-top__actions actions-collection-top">
+									<a href="#" class="actions-collection-top__button button button--dark">Shop Now</a>
+								</div>
+							</div>
+							<div class="top-collections__items items-collection-top">
+								<a class="items-collection-top__image" href="#">
+									<img src="img/top_collections/fashionable_women.webp" alt="fashionable_women">
+								</a>
+								<div class="items-collection-top__content content-top-collection">
+									<h3 class="content-top-collection__title">
+										<a class="content-top-collection__link-title" href="#">Fashionable Bag women</a>
+									</h3>
+									<div class="content-top-collection__price price-collection-top">
+										<div class="price-collection-top__text">$159.00</div>
+									</div>
+								</div>
+								<div class="items-collection-top__actions actions-collection-top">
+									<a href="#" class="actions-collection-top__button button button--dark">Shop Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__article article">
+				<div class="article__container">
+					<div class="article__body">
+						<div class="article__items item-article">
+							<div class="item-article__content content-article">
+								<div class="content-article__items">
+									<h2 class="content-article__title">Project Overview</h2>
+									<div class="content-article__text">
+										<p>
+											Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
+										</p>
+									</div>
+								</div>
+								<div class="item-article__footer footer-article">
+									<div class="footer-article__data">July 22 - 2022</div>
+									<div class="footer-article__text">Interior Design - Furnitur</div>
+								</div>
+							</div>
+						</div>
+						<div class="article__items item-article">
+							<div class="item-article__content content-article">
+								<div class="content-article__items">
+									<h2 class="content-article__title">Design Process</h2>
+									<div class="content-article__text">
+										<p>
+											Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
+										</p>
+										<p>
+											Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere. Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__gallery gallery">
+				<div class="gallery__container">
+					<div class="gallery__body">
+						<div class="gallery__items item-gallery">
+							<a href="#" class="item-gallery__image">
+								<img src="img/gallery/interior-chair.webp" alt="interior-chair">
+							</a>
+							<a href="#" class="item-gallery__image">
+								<img src="img/gallery/interior-phone.webp" alt="interior-phone">
+							</a>
+							<a href="#" class="item-gallery__image">
+								<img src="img/gallery/interior-sofa.webp" alt="interior-sofa">
+							</a>
+							<a href="#" class="item-gallery__image">
+								<img src="img/gallery/interior-lamp.webp" alt="interior-lamp">
+							</a>
+							<a href="#" class="item-gallery__image">
+								<img src="img/gallery/interior-room.webp" alt="interior-room">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__actions action-footer">
+					<a class="action-footer__button" href="#h-1">Вверх</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

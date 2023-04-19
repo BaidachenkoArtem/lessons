@@ -1,0 +1,33 @@
+$mainColor: #495057;
+$lightColor: #f8f9fa;
+$colorText: #e5e5e5;
+$headingColor: #212529;
+$colorLogo: #ddbea9;
+.title {
+	color: $headingColor;
+	font-size: rem(25);
+	line-height: 1.6;
+	font-weight: 700;
+}
+.title--white {
+	color: $lightColor;
+}
+@mixin button($headingColor: #212529) {
+	display: inline-block;
+	color: $lightColor;
+	font-weight: 500;
+	background-color: $headingColor;
+	line-height: 2.08;
+	padding: rem(8) rem(50);
+	border-radius: rem(3);
+}
+@mixin label {
+	background-color: rgba(33, 37, 41, 0.3);
+	border-radius: rem(3);
+	color: $lightColor;
+	font-size: rem(8);
+	text-transform: uppercase;
+	line-height: 2.5;
+	font-weight: 700;
+	padding: rem(3) rem(12) rem(2);
+}
